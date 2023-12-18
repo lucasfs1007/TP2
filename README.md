@@ -6,11 +6,11 @@ Trabalho 2 da disciplina TPPE no semestre 2023/2.
 
 | Aluno                              | Matrícula  |
 | ---------------------------------- | ---------- |
-| Lucas Felipe Soares                | 202016767  |
-| João Pedro Alves Machado           | 212008197  |
-| Lucas Gomes Caldas                 | 212005426  |
-| Lucas Braun Vieira Xavier          | 190033088  |
 | Guilherme Rogelin Vial             | 190014032  |
+| João Pedro Alves Machado           | 212008197  |
+| Lucas Braun Vieira Xavier          | 190033088  |
+| Lucas Felipe Soares                | 202016767  |
+| Lucas Gomes Caldas                 | 212005426  |
 
 ## Simplicidade:
 
@@ -25,3 +25,28 @@ Da mesma forma, o problema da **classe grande** também se encaixa nesse context
 ### Operação de refatoração:
 
 As principais operações de refatoração nesses casos são **extrair função** e **extrair classe**. Ao extrair uma função, desenvolvedores podem dividir blocos extensos de código em unidades mais gerenciáveis, promovendo a clareza e compreensibilidade. Isso não apenas facilita a manutenção, mas também contribui para a modularidade do código. Similarmente, a refatoração de extrair classe permite separar responsabilidades em unidades coesas, evitando classes grandes e complexas. 
+
+
+## Ausência de duplicações:
+
+Código bem projetado não contém duplicações, ele nunca precisa se repetir. A duplicação é a inimiga de um design elegante e simples. Código redundante e desnecessário leva a um programa frágil. Dadas duas partes semelhantes de código que diferem apenas em detalhes mínimos, você pode encontrar e corrigir um bug em uma e depois esquecer de corrigir o mesmo bug na outra. Isso compromete claramente a segurança do código.
+
+A maioria das duplicações ocorre através da programação de copiar e colar código no editor. Ela pode surgir de maneira mais sutil através da reinvenção de soluções já existentes por programadores que não compreendem o sistema como um todo.
+
+### Relação com Maus Cheiros de Código de Fowler:
+
+A presença de duplicações no código está diretamente relacionada a vários maus cheiros definidos por Martin Fowler, incluindo:
+
+**Duplicação de Código:** Duplicações são consideradas um mau cheiro significativo, pois aumentam a complexidade e a chance de inconsistências entre partes semelhantes do código.  
+**Funções Longas:** Duplicações frequentemente resultam em métodos e funções mais longas, pois partes do código são repetidas em várias partes do programa.
+
+### Operação de refatoração:
+
+**Extrair função:** Essa operação envolve a identificação de código duplicado e a criação de uma função ou método para realizar a tarefa duplicada, promovendo a reutilização.
+
+
+## Referências Bibliográficas
+
+Goodliffe, P. (2006). Code craft : The practice of writing excellent code. No Starch Press, Incorporated.
+
+Fowler M, Beck K. Refactoring : Improving the Design of Existing Code. Addison-Wesley; 2019.
