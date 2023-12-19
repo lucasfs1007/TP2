@@ -16,6 +16,24 @@ Trabalho 2 da disciplina TPPE no semestre 2023/2.
 
 Essa constitui a característica mais crucial de um código bem elaborado. Um design simples revela-se fácil de compreender, isento de falhas ou imperfeições desnecessárias, além de ser de execução descomplicada. Ele mantém coerência e consistência. O código simples é o mais conciso possível, sem ultrapassar essa medida. O programador deve se empenhar em determinar a quantidade mínima de código necessária e, em seguida, redijir apenas essa quantidade. É importante lembrar que é sempre possível adicionar mais código posteriormente para funcionalidades extras, mas raramente pode-se remover algo que se tornou intimamente entrelaçado. O conceito chave dessa característica é “Menos é mais”.
 
+## Elegância
+
+A elegância é uma qualidade que é apreciada em muitas áreas da vida, incluindo a arte, a arquitetura e o design. No contexto do software, a elegância pode ser definida como a qualidade de um software que é simples, eficiente e fácil de entender e usar. A elegância em software é importante por uma série de razões. Em primeiro lugar, ela torna o software mais agradável de usar. Software elegante é fácil de aprender e usar, mesmo para pessoas que não são especialistas em tecnologia. Isso pode ajudar a melhorar a experiência do usuário e aumentar a satisfação do cliente. Em segundo lugar, a elegância em software pode ajudar a reduzir os custos de desenvolvimento e manutenção. Software elegante é mais fácil de manter e atualizar, o que pode economizar tempo e dinheiro. Em terceiro lugar, a elegância em software pode ajudar a aumentar a segurança. Software elegante é mais fácil de entender e analisar, o que pode dificultar a identificação e exploração de vulnerabilidades. Ao nos referirmos a elegância de software, podemos destacar três componentes principais:
+
+### Simplicidade: 
+
+Software elegante é simples de entender e usar. Ele não deve ser complexo ou confuso. Tal característica é abordada no tópico anterior.
+
+### Eficiência: 
+
+Software elegante é eficiente em termos de recursos. Ele deve usar os recursos do sistema de forma eficiente, sem desperdiçar memória ou processamento. Muitos desses aspectos são originados em decorrência de uma boa utilização das estruturas de dados, frameworks adequados e até mesmo conhecimentos acerca da estrutura física dos sistemas de software como HDs, SSD, processadores e etc.
+
+### Estética:
+
+Software elegante é agradável de olhar e usar. Ele deve ter um design atraente e intuitivo. Muitos desses elementos, são abordados durante os estudos de **Interação Humano-Computador**, no qual corresponde uma área do estudo onde procura se melhorar a relação do ser-humano com os sistemas computacionais.
+
+Trazendo um exemplo prático quanto a elegância, podemos destacar a **linguagem de programação Python**: Python é uma linguagem de programação de alto nível que é conhecida por sua clareza e simplicidade. Ela é fácil de aprender e usar, mesmo para pessoas que não são especialistas em programação.
+ 
 ## Boa documentação
 
 A documentação de software é um conjunto de informações que descreve o software, seu funcionamento e como usá-lo. Ela é importante para todos os envolvidos em um projeto de software, incluindo usuários, desenvolvedores e administradores. A mesma deve possuir formatos de documentação padronizados, cobertura abrangente dos aspectos do software, atualizada regularmente e de preferência esteja disponível em diversos idiomas com a linguagem mais clara e concisa possível. Com a seguinte característica de projeto, podemos melhorar a experiência do usuário com a facilidade de aprendizagem do mesmo com o sistema, facilita o desenvolvimento e manuntenção do software e reduz o custo de investimento com suporte técnico em vista que agora o próprio usuário é capaz de resolver seus próprios problemas. Exemplos de boa documentação: **Linux**,**Python** e **React**.
@@ -56,5 +74,9 @@ Goodliffe, P. (2006). Code craft : The practice of writing excellent code. No St
 Fowler M, Beck K. Refactoring : Improving the Design of Existing Code. Addison-Wesley; 2019.
 
 BROPHY, P. The library in the twenty-first century. London: Facet, 2007.
+
+Barbosa, S.D.J.; Silva, B.S. Interação Humano-Computador. Série SBC, Editora Campus-Elsevier, 2010.
+
+AUGUSTO, J. Guia de Orientação e Desenvolvimento de Sites. [s.l.] Saraiva Educação S.A., [s.d.].
 
 ‌
