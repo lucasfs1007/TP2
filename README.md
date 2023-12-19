@@ -81,6 +81,19 @@ A presença de duplicações no código está diretamente relacionada a vários 
 
 **Extrair função:** Essa operação envolve a identificação de código duplicado e a criação de uma função ou método para realizar a tarefa duplicada, promovendo a reutilização.
 
+## Portabilidade
+
+a portabilidade se refere à capacidade do código ou do software de ser transferido ou executado em diferentes ambientes ou plataformas sem a necessidade de grandes alterações ou adaptações. Ou seja, é a característica de um sistema que permite que ele seja facilmente utilizado em diferentes sistemas operacionais, hardwares ou ambientes de execução.
+
+### Relação com Maus Cheiros de Código de Fowler:
+
+A relação dos maus cheiros de código, conforme descrita por Fowler, quando aplicada à portabilidade, destaca a importância de um design sensível às exigências de diferentes plataformas, sem comprometer desnecessariamente a qualidade do código. É ressaltado que um design eficiente não garante automaticamente a portabilidade, mas deve ser adaptável às necessidades específicas de cada ambiente.
+
+Uma abordagem recomendada é a criação de uma camada de abstração de plataforma, atuando como uma interface entre o código principal e as particularidades de sistemas operacionais ou hardware. Essa estratégia permite implementar essa camada de maneira flexível em cada plataforma, facilitando a adaptação do código para ambientes diversos.
+
+### Operação de refatoração:
+
+Uma operação de refatoração válida para lidar com a portabilidade seria a criação de uma camada de abstração, isolando o código específico de plataformas em métodos ou funções separadas. Isso permite que o código principal interaja com uma interface genérica, facilitando modificações para suportar diferentes ambientes sem impactar diretamente o restante do código.
 
 ## Referências Bibliográficas
 
