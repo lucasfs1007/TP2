@@ -58,11 +58,37 @@ A documentação de software é um conjunto de informações que descreve o soft
 
 ### Relação com Maus Cheiros de Código de Fowler:
 
-vou adicionar ainda
+A boa documentação pode ajudar a mitigar os efeitos dos maus-cheiros de código. Ela pode fornecer informações que ajudam os desenvolvedores a entender o código e a tomar decisões informadas sobre como melhorá-lo. Isso é, um código com má documentação está mais suscetível aos maus-cheiros de código. A seguir veremos exemplos que relacionam a boa documentação com maus-cheiros de código.
+
+#### Código complexo
+
+A documentação pode ajudar a explicar o código complexo e a fornecer informações sobre como ele pode ser simplificado. Garantindo assim, que o mesmo agora possa ser evoluido e passível de manuntenção.
+
+#### Código frágil
+
+A documentação pode ajudar a identificar o código frágil e a fornecer informações sobre como ele pode ser tornado mais robusto. Com isso, evitamos que as falhas escorram para outros trechos de código sob efeito de cascata ou até mesmo que não comprometa o funcionamento adequado do código como um todo.
+
+### Código acoplado
+
+A documentação pode ajudar a identificar o acoplamento entre os componentes do código e a fornecer informações sobre como ele pode ser reduzido ou operado.
+
 
 ### Operação de refatoração:
 
-vou adicionar ainda
+As principais operações de refatoração aplicadas nesse contexto se consistem em: **renomear, mover e combinar**. A seguir, veremos mais detalhadamente sobre essas três operações:
+
+#### Renomear
+
+A operação de renomear consiste em uma melhor adequação dos termos para tornar mais claro para um público não técnico. Por exemplo, um termo técnico como "API" pode ser substituído por "interface de programação de aplicativos".
+
+#### Mover
+
+Uma seção sobre como usar um determinado recurso pode ser movida para o início do documento para que os usuários possam encontrá-la mais facilmente. Além mais, é importante que seja pensando na ordem em que as seções são apresentadas para facilitar no entendimento daquele que se deseja que leia as documentações.
+
+#### Combinar
+
+Duas seções sobre os mesmos tipos de erros podem ser combinadas para reduzir a redundância. Por conseguinte, seções similares devem estar mais próximas na documentação para que se facilite no entendimento lógico acerca de tópicos que possuem certo grau de similaridade.
+
 
 ## Ausência de duplicações:
 
