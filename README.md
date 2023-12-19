@@ -16,6 +16,16 @@ Trabalho 2 da disciplina TPPE no semestre 2023/2.
 
 Essa constitui a característica mais crucial de um código bem elaborado. Um design simples revela-se fácil de compreender, isento de falhas ou imperfeições desnecessárias, além de ser de execução descomplicada. Ele mantém coerência e consistência. O código simples é o mais conciso possível, sem ultrapassar essa medida. O programador deve se empenhar em determinar a quantidade mínima de código necessária e, em seguida, redijir apenas essa quantidade. É importante lembrar que é sempre possível adicionar mais código posteriormente para funcionalidades extras, mas raramente pode-se remover algo que se tornou intimamente entrelaçado. O conceito chave dessa característica é “Menos é mais”.
 
+### Relação com Maus Cheiros de Código de Fowler:
+
+Um dos maus-cheiros relacionados é a presença de **funções longas**, que desafiam a simplicidade ao estenderem-se desnecessariamente, tornando-se difíceis de entender e manter. Essas funções, ao acumularem excesso de complexidade, geram códigos extensos que dificultam a identificação de sua lógica e propósito.
+
+Da mesma forma, o problema da **classe grande** também se encaixa nesse contexto. Classes extensas e complexas tornam-se obstáculos à clareza do código, desafiando a coesão e consistência desejadas. A analogia com a ideia de que o código deve ser "tão pequeno quanto possível, mas não menor" reflete a importância de evitar o inchaço desnecessário nas funções e classes, respeitando a necessidade de tamanho mínimo sem comprometer a compreensibilidade do código.
+
+### Operação de refatoração:
+
+As principais operações de refatoração nesses casos são **extrair função** e **extrair classe**. Ao extrair uma função, desenvolvedores podem dividir blocos extensos de código em unidades mais gerenciáveis, promovendo a clareza e compreensibilidade. Isso não apenas facilita a manutenção, mas também contribui para a modularidade do código. Similarmente, a refatoração de extrair classe permite separar responsabilidades em unidades coesas, evitando classes grandes e complexas. 
+
 ## Elegância
 
 A elegância é uma qualidade que é apreciada em muitas áreas da vida, incluindo a arte, a arquitetura e o design. No contexto do software, a elegância pode ser definida como a qualidade de um software que é simples, eficiente e fácil de entender e usar. A elegância em software é importante por uma série de razões. Em primeiro lugar, ela torna o software mais agradável de usar. Software elegante é fácil de aprender e usar, mesmo para pessoas que não são especialistas em tecnologia. Isso pode ajudar a melhorar a experiência do usuário e aumentar a satisfação do cliente. Em segundo lugar, a elegância em software pode ajudar a reduzir os custos de desenvolvimento e manutenção. Software elegante é mais fácil de manter e atualizar, o que pode economizar tempo e dinheiro. Em terceiro lugar, a elegância em software pode ajudar a aumentar a segurança. Software elegante é mais fácil de entender e analisar, o que pode dificultar a identificação e exploração de vulnerabilidades. Ao nos referirmos a elegância de software, podemos destacar três componentes principais:
