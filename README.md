@@ -43,6 +43,14 @@ Software elegante é eficiente em termos de recursos. Ele deve usar os recursos 
 Software elegante é agradável de olhar e usar. Ele deve ter um design atraente e intuitivo. Muitos desses elementos, são abordados durante os estudos de **Interação Humano-Computador**, no qual corresponde uma área do estudo onde procura se melhorar a relação do ser-humano com os sistemas computacionais.
 
 Trazendo um exemplo prático quanto a elegância, podemos destacar a **linguagem de programação Python**: Python é uma linguagem de programação de alto nível que é conhecida por sua clareza e simplicidade. Ela é fácil de aprender e usar, mesmo para pessoas que não são especialistas em programação.
+
+### Relação com Maus Cheiros de Código de Fowler:
+
+Um dos maus-cheiros relacionados está atrelado com um código com excesso de **complexidade**, o mesmo pode dificultar a compreensão, manuntenção e a evolução do código. Além mais, podemos destacar o **código incoerente**, esse estilo de código não segue um padrão consistente e torna o mesmo cada vez mais difícil de evoluir e fazer manuntenção, sobretudo para desenvolvedores que possuem menos experiência com esse código em questão. Por fim, podemos citar o **custo de mudanças**, o código é difícil de mudar. Isso pode dificultar a correção de erros, a implementação de novas funcionalidades ou a adaptação a mudanças nas necessidades do negócio.
+
+### Operação de refatoração:
+
+As principais operações de refatoração aplicadas nesse caso são **remoção de código duplicado** e **desacoplando** ou deixando o código mais **modular**. O código duplicado, eleva a complexidade porque qualquer manuntenção feita em um dos trechos do código precisa ser aplicada em todas as demais, além mais, o código duplicado pode ocasionar diminuição do desempenho vista que o compilador ou interpretador do software precisa carregar e analisar o código duplicado duas ou mais vezes. Tratando os códigos desacoplados, é aquele código em que os componentes são interdependentes o mínimo possível, isso significa que cada componente deve ser capaz de funcionar de forma independente, sem depender de outros componentes. Por fim, o código modular é um tipo de código que é dividido em unidades menores, chamadas de módulos, cada módulo é responsável por uma função ou tarefa específica. Tornando assim, mais fácil a **compreensão, manuntenção e melhorando a testabilidade do código**.
  
 ## Boa documentação
 
@@ -50,14 +58,11 @@ A documentação de software é um conjunto de informações que descreve o soft
 
 ### Relação com Maus Cheiros de Código de Fowler:
 
-Um dos maus-cheiros relacionados é a presença de **funções longas**, que desafiam a simplicidade ao estenderem-se desnecessariamente, tornando-se difíceis de entender e manter. Essas funções, ao acumularem excesso de complexidade, geram códigos extensos que dificultam a identificação de sua lógica e propósito.
-
-Da mesma forma, o problema da **classe grande** também se encaixa nesse contexto. Classes extensas e complexas tornam-se obstáculos à clareza do código, desafiando a coesão e consistência desejadas. A analogia com a ideia de que o código deve ser "tão pequeno quanto possível, mas não menor" reflete a importância de evitar o inchaço desnecessário nas funções e classes, respeitando a necessidade de tamanho mínimo sem comprometer a compreensibilidade do código.
+vou adicionar ainda
 
 ### Operação de refatoração:
 
-As principais operações de refatoração nesses casos são **extrair função** e **extrair classe**. Ao extrair uma função, desenvolvedores podem dividir blocos extensos de código em unidades mais gerenciáveis, promovendo a clareza e compreensibilidade. Isso não apenas facilita a manutenção, mas também contribui para a modularidade do código. Similarmente, a refatoração de extrair classe permite separar responsabilidades em unidades coesas, evitando classes grandes e complexas. 
-
+vou adicionar ainda
 
 ## Ausência de duplicações:
 
