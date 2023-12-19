@@ -16,6 +16,10 @@ Trabalho 2 da disciplina TPPE no semestre 2023/2.
 
 Essa constitui a característica mais crucial de um código bem elaborado. Um design simples revela-se fácil de compreender, isento de falhas ou imperfeições desnecessárias, além de ser de execução descomplicada. Ele mantém coerência e consistência. O código simples é o mais conciso possível, sem ultrapassar essa medida. O programador deve se empenhar em determinar a quantidade mínima de código necessária e, em seguida, redijir apenas essa quantidade. É importante lembrar que é sempre possível adicionar mais código posteriormente para funcionalidades extras, mas raramente pode-se remover algo que se tornou intimamente entrelaçado. O conceito chave dessa característica é “Menos é mais”.
 
+## Boa documentação
+
+A documentação de software é um conjunto de informações que descreve o software, seu funcionamento e como usá-lo. Ela é importante para todos os envolvidos em um projeto de software, incluindo usuários, desenvolvedores e administradores. A mesma deve possuir formatos de documentação padronizados, cobertura abrangente dos aspectos do software, atualizada regularmente e de preferência esteja disponível em diversos idiomas com a linguagem mais clara e concisa possível. Com a seguinte característica de projeto, podemos melhorar a experiência do usuário com a facilidade de aprendizagem do mesmo com o sistema, facilita o desenvolvimento e manuntenção do software e reduz o custo de investimento com suporte técnico em vista que agora o próprio usuário é capaz de resolver seus próprios problemas. Exemplos de boa documentação: **Linux**,**Python** e **React**.
+
 ### Relação com Maus Cheiros de Código de Fowler:
 
 Um dos maus-cheiros relacionados é a presença de **funções longas**, que desafiam a simplicidade ao estenderem-se desnecessariamente, tornando-se difíceis de entender e manter. Essas funções, ao acumularem excesso de complexidade, geram códigos extensos que dificultam a identificação de sua lógica e propósito.
@@ -50,3 +54,7 @@ A presença de duplicações no código está diretamente relacionada a vários 
 Goodliffe, P. (2006). Code craft : The practice of writing excellent code. No Starch Press, Incorporated.
 
 Fowler M, Beck K. Refactoring : Improving the Design of Existing Code. Addison-Wesley; 2019.
+
+BROPHY, P. The library in the twenty-first century. London: Facet, 2007.
+
+‌
