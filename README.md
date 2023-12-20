@@ -121,6 +121,21 @@ Uma abordagem recomendada é a criação de uma camada de abstração de platafo
 
 Uma operação de refatoração válida para lidar com a portabilidade seria a criação de uma camada de abstração, isolando o código específico de plataformas em métodos ou funções separadas. Isso permite que o código principal interaja com uma interface genérica, facilitando modificações para suportar diferentes ambientes sem impactar diretamente o restante do código.
 
+## Elegância
+
+Elegância no desenvolvimento de software, referindo-se à criação de soluções simples e eficientes, é essencial para lidar com a portabilidade. A eliminação de Maus Cheiros de Código, padrões problemáticos, é crucial nesse processo.
+
+### Relação com Maus Cheiros no Código de Fowler:
+A busca pela elegância está ligada à identificação e eliminação dos Maus Cheiros, padrões problemáticos de práticas de programação. Em termos de portabilidade, a elegância implica em criar um design sensível a diferentes plataformas, evitando códigos duplicados e dependências excessivas.
+
+Um código elegante para portabilidade deve ser flexível, adaptando-se a diversos ambientes sem perder legibilidade. A eliminação de Maus Cheiros relacionados à portabilidade envolve a criação de estruturas que facilitem a adaptação a sistemas operacionais, hardwares ou ambientes distintos.
+
+### Operação de refatoração:
+
+A operação de refatoração é fundamental para atingir a elegância. Na portabilidade, criar uma camada de abstração para isolar as peculiaridades de plataformas é uma forma de refatoração que aprimora a elegância do código.
+
+Refatorar para portabilidade inclui reorganizar o código, identificar padrões comuns e criar interfaces genéricas. Isolar o código específico de plataformas em funções separadas, conforme sugerido na operação de refatoração, contribui para a elegância ao permitir que o código principal interaja com uma interface genérica, facilitando manutenção e adaptação a diferentes ambientes.
+
 ## Referências Bibliográficas
 
 Goodliffe, P. (2006). Code craft : The practice of writing excellent code. No Starch Press, Incorporated.
